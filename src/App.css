@@ -1,0 +1,48 @@
+html, body {
+  min-width: 360px;  /* Prevents shrinking beyond 360px */
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: relative;
+}
+
+.Hero {
+  background-image: url('assets/images/templatemo-wave-banner.jpg');
+  height: 550px;
+  align-items: center;
+}
+
+.hero-text{
+  text-align: center;
+  width: 100%;
+  padding-top: 200px;
+  font-size: 60px;
+}
+
+.hero-text-description{
+  text-align: center;
+  font-size: 18px;
+}
+.hero-button-area{
+  text-align: center;
+  margin-top: 20px;
+}
+.hero-button {
+  background-color: #0d6efd;
+  padding: 10px 30px;
+  color: #FFF;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  border-color: transparent;
+}
+.hero-button:hover {
+  background-color: #20c997;
+}
+
+
+.text-white{
+  color: #FFF;
+}

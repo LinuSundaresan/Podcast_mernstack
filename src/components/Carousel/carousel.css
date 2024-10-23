@@ -1,0 +1,33 @@
+.sliderContainer{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    right: 0
+}
+
+.carousel_profiles {
+    height: 20%;
+}
+
+.carousel_profiles_images {
+    border-radius: 20px 20px 0px 0px;
+    width: 180px;
+}
+
+.profile_card {
+    width: 180px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #f0f8ff;
+    padding: 0px;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.badge {
+    background-color: #0066CC;
+    color: #f0f8ff;
+    padding: 1px 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
