@@ -31,3 +31,13 @@
     border-radius: 30px;
     margin-top: 20px;
 }
+
+.slick-next {
+    display: none;
+    right: 0px !important;
+}
+
+.slick-prev {
+    display: none;
+    left: 0px !important;
+}

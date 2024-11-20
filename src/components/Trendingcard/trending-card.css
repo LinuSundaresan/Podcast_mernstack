@@ -1,0 +1,80 @@
+.trending-card-block {
+    display: flex;
+    gap: 30px;
+}
+
+.trending_card {
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 33%;
+    border-radius: 20px;
+    padding:20px;
+    background-color: #f0f8ff;
+  }
+
+.trending_card:hover {
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s;
+
+    border: 2px solid #7fffd4;
+}
+
+.trending_card_content {
+    display: block;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  
+  .trending_heading{
+    background-color: #f0f8ff;
+    display: inline-block;
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 50px;
+    font-family: 'sono', sans-serif !important;
+  }
+  
+  .trending_image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .trending-podcast-title{
+    font-size: 28px;
+    color: #20c997;
+    margin-top: 10px;
+    font-family: 'sono', sans-serif !important;
+  }
+  
+  .fa {
+    font-size: 15px;
+    color: #20c997;
+  }
+  
+
+  
+  .podcast-host-category {
+    font-weight: 600;
+  }
+  
+  .latest-profile-icons-block {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+  
+  .mx-1 {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  
+  .latest-card-block {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }

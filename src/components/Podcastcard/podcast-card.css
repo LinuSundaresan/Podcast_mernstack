@@ -1,0 +1,146 @@
+.latest{
+    margin: 30px 100px;
+  }
+  
+  .latest_heading{
+    background-color: #f0f8ff;
+    display: inline-block;
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 50px;
+    font-family: 'sono', sans-serif !important;
+  }
+  
+  
+  .latest_card {
+    display: flex;
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 45%;
+    border: 2px solid #7fffd4;
+    border-radius: 20px;
+    padding:10px;
+  }
+  
+  .latest_card:hover {
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s;
+  }
+  
+  .latest_card_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 10px;
+  }
+  
+  .latest_card_left{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+  }
+  .latest_image{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .latest_button_subscribe{
+    background-color: #0066CC;
+    border: 1px solid #0066CC;
+    border-radius: 30px;
+    color: #FFF;
+    width: 90%;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .latest_button_subscribe:hover{
+    background-color: #7fffd4;
+    border: 1px solid #7fffd4;
+    transition: all 0.3s;
+  }
+  
+  .latest_card_right {
+    display: block !important;
+  }
+  
+  .latest-block-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  
+  .latest-podcast-title{
+    font-size: 20px;
+    color: #20c997;
+    margin-top: 10px;
+    font-family: 'sono', sans-serif !important;
+  }
+  
+  .fa {
+    font-size: 15px;
+    color: #20c997;
+  }
+  
+  .episode-count {
+    background-color: #0066CC;
+    color: #FFF;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  .latest-profile-section {
+    display: flex ;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .latest-profile-image {
+    width: 60px;
+    height: 60%;
+    border-radius: 50%;
+  }
+  
+  .latest-profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .podcast-host {
+  
+  }
+  
+  .podcast-host-category {
+    font-weight: 600;
+  }
+  
+  .latest-profile-icons-block {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+  
+  .mx-1 {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  
+  .latest-card-block {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }

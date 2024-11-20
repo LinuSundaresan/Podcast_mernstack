@@ -42,7 +42,14 @@ html, body {
   background-color: #20c997;
 }
 
-
 .text-white{
   color: #FFF;
+}
+
+
+.footer {
+  background-image: url('assets/images/templatemo-wave-footer.jpg');
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
