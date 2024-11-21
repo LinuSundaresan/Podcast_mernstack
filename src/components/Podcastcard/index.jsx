@@ -43,16 +43,16 @@ const PostcastCard  = () => {
                     </div>
 
                     <div className="latest-profile-icons-block">
-                        <a href="#" class="fa fa-headphones mx-1">
+                        <a href="#" className="fa fa-headphones mx-1">
                             <span className='mx-1'>120k</span>
                         </a>
-                        <a href="#" class="fa fa-heart mx-1">
+                        <a href="#" className="fa fa-heart mx-1">
                             <span className='mx-1'>42.5k</span>
                         </a>
-                        <a href="#" class="fa fa-chat mx-1">
+                        <a href="#" className="fa fa-chat mx-1">
                             <span className='mx-1'>11k</span>
                         </a>
-                        <a href="#" class="fa fa-download mx-1">
+                        <a href="#" className="fa fa-download mx-1">
                             <span className='mx-1'>50k</span>
                         </a>
                     </div>

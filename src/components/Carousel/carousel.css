@@ -32,6 +32,15 @@
     margin-top: 20px;
 }
 
+.slick-slide img {
+	max-width: 100%;
+	transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+	transform: scale(1.0);
+}
+
 .slick-next {
     display: none;
     right: 0px !important;
@@ -40,4 +49,12 @@
 .slick-prev {
     display: none;
     left: 0px !important;
+}
+
+
+
+
+/* Optional: Add focus for transitions */
+.slick-active img {
+    transition: transform 0.5s, opacity 0.5s;
 }
