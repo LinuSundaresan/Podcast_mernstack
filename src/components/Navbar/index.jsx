@@ -20,7 +20,7 @@ const  Navbar = ()=> {
                     <li>About</li>
                     <li>Pages</li>
                     <li>Contact</li>
-                    <li><button className='get_started'>Get Started</button></li>
+                    <li><button className='get_started'>Get Started 1</button></li>
                 </ul>
 
                 
