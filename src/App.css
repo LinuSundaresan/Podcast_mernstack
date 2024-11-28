@@ -121,7 +121,11 @@ html, body {
   margin-top: 15px;
 }
 
-
+.footer-social .social-icon-container {
+  display: flex;
+  justify-content: initial;
+  gap: 20px;
+}
 
 /***Common Classes ***/
 
