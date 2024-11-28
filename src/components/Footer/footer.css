@@ -1,0 +1,79 @@
+.footer {
+    display: flex;
+    background-image: url('../assets/images/templatemo-wave-footer.jpg');
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  
+  
+  
+  .footer-top {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+    color: #FFF;
+    align-items:center ;
+  }
+  
+  .footer-fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .footer-fieldset input {
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #FFF;
+  }
+  .footer-fieldset .form-submit {
+    background-color: #17dbf3f2;
+    padding: 10px;
+    color: #FFF;
+    border: 1px solid #17dbf3f2;
+    border-radius:  0 0 10px 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .footer-legent {
+    padding: 20px;
+    
+  }
+  
+  .footer-form {
+  
+    width: 33%;
+    align-items: center;
+  }
+  
+  .footer-contact {
+    width: 33%;
+    align-items: center;
+    padding-left: 40px;
+  }
+  
+  .footer-download {
+    width: 33%;
+    align-items: center;
+  }
+  
+  .footer-store-block{
+    margin-top: 15px;
+  }
+  .footer-store {
+    width: 35%;
+  }
+  
+  .footer-social {
+    margin-top: 15px;
+  }
+  
+  .footer-social .social-icon-container {
+    display: flex;
+    justify-content: initial;
+    gap: 20px;
+  }

@@ -1,5 +1,8 @@
 import './trending-card.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faComment, faHeadphones } from "@fortawesome/free-solid-svg-icons";
+
 const Trendingcard = () => {
 
     return (
@@ -7,7 +10,7 @@ const Trendingcard = () => {
             <div className='trending_card_content'>
                 
                 <div>
-                    <img className='trending_image' src="./assets/images/podcast/11683425_4790593.jpg"/>
+                    <img className='trending_image' src="../assets/images/podcast/11683425_4790593.jpg"/>
                 </div>
                 <div>
                     <h2 className='trending-podcast-title'>Modern Vintage</h2>
@@ -20,10 +23,12 @@ const Trendingcard = () => {
 
                 <div className='latest-profile-section'>
                     <div className="latest-profile-image-block">
-                    <img className='latest-profile-image' src="./assets/images/profile/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing.jpg" alt="" />
+                    <img className='latest-profile-image' src="../assets/images/profile/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing.jpg" alt="" />
                     </div>
                     <div className="latest-profile-details">
-                    <div className='podcast-host'>John <i class="fa fa-check-circle"></i> </div>
+                    <div className='podcast-host'>John 
+                        <img className='verified-badge' src="../../assets/images/verified.png" alt="" />
+                    </div>
                     <div className='podcast-host-category'>Influencer</div>
                     </div>
 
@@ -35,19 +40,20 @@ const Trendingcard = () => {
                 </div>
 
                 <div className="latest-profile-icons-block">
-                    <a href="#" className="fa fa-headphones mx-1">
+                    <a href="#" className="latest-icons mx-1">
+                        <FontAwesomeIcon icon={faHeadphones}  />
                         <span className='mx-1'>120k</span>
                     </a>
-                    <a href="#" className="fa fa-heart mx-1">
+                    <a href="#" className="latest-icons mx-1"> 
+                        <FontAwesomeIcon icon={faHeart}  />
                         <span className='mx-1'>42.5k</span>
                     </a>
-                    <a href="#" className="fa fa-chat mx-1">
+                    <a href="#" className="latest-icons mx-1">
+                        <FontAwesomeIcon icon={faComment}  />
                         <span className='mx-1'>11k</span>
                     </a>
                 </div>
-                </div>
-
-                
+                </div>                
                     
             </div>
         </div>

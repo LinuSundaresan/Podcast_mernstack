@@ -1,11 +1,16 @@
 import './user-layout.css';
 
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
-const UserLayout = () => {
+const UserLayout = ({children }) => {
 
     return (
-        <Navbar/>
+        <main className="main">
+            <Navbar/>
+                {children}
+            <Footer/>
+        </main>
     );
 
 };

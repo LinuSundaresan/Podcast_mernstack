@@ -1,0 +1,34 @@
+.about-content-section {
+
+    margin: 70px 150px;
+    padding: 20px 50px ;
+}
+
+.about-image-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    color : #717275;
+    margin: 20px auto;
+}
+
+.about-content-section .about-image{
+   width: 100%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+.podcasters-section {
+    margin: 40px 100px;
+
+}
+.podcaster-block {
+    display: flex;
+    gap: 40px;
+}
+

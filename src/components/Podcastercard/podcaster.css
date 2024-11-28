@@ -1,0 +1,31 @@
+.podcaster_card {
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 25%;
+    border-radius: 20px;
+    padding:0px;
+    background-color: #fff;
+    box-shadow: rgba(183, 176, 176, 0.824) 0px 5px 15px;
+    position: relative;
+}
+
+.podcaster_card img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.about_card_footer {
+    position: absolute;
+    bottom:0;
+    background-color: #FFF;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius:  0px 0px 20px 20px;
+}
+
+.podcaster-badge-area {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}

@@ -1,5 +1,5 @@
 .Hero {
-    background-image: url('assets/images/templatemo-wave-banner.jpg');
+    background-image: url('../assets/images/templatemo-wave-banner.jpg');
     height: 750px;
     align-items: center;
   }

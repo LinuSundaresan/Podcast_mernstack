@@ -119,7 +119,8 @@
   }
   
   .podcast-host {
-  
+    display: flex;
+    gap: 6px;
   }
   
   .podcast-host-category {
