@@ -9,9 +9,13 @@ import Carousel from './components/Carousel';
 import PostcastCard from './components/Podcastcard';
 import Topicscard from './components/Topicscard';
 import Trendingcard from './components/Trendingcard';
+import Record from './components/Record';
 
 import { useState , useEffect } from 'react';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
 
@@ -60,7 +64,7 @@ function App() {
             
         </div>
 
-        
+        <Record/>
 
       </div>
 
@@ -108,9 +112,12 @@ function App() {
 
             <div className='footer-social'>
               <h2>Social</h2>
-              <i className='fa fa-trash'></i>
-              <i className='fa fa-instagram'/>
-              <i className='fa fa-whatsapp'/>
+              <div className="social-icon-container">
+                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faInstagram} />
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </div>
+              
             </div>
           </div>
 
