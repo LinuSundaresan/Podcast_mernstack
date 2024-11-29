@@ -1,5 +1,6 @@
 import UserLayout from '../../../components/UserLayout';
-import Hero from '../../../components/Hero';
+// import Hero from '../../../components/Hero';
+import Heropages from '../../../components/Heropages';
 import Podcaster from '../../../components/Podcastercard';
 import './about.css';
 
@@ -8,8 +9,8 @@ const About = () => {
     return (
         <>
             <UserLayout heading="About">
-                <Hero title="About" 
-                    description="Discover more about our platform and mission." showButton={false} />
+                <Heropages title="About" 
+                    description="Discover more about our platform and mission."  />
 
                 <div className='about-content-section'>
                     <h1 className='latest_heading'>Our Story</h1>

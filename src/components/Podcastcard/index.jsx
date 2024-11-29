@@ -19,7 +19,7 @@ const PostcastCard  = () => {
 
                     <div className='latest_card_right'>
                     <div className='latest-block-top'>
-                        <div className="timer">
+                        <div className="latest-icons timer">
                         <FontAwesomeIcon icon={faClock}  /> <span>50 Minutes</span>
                         </div>
                         <div>Episode<span className='episode-count'>15</span></div>
@@ -47,18 +47,18 @@ const PostcastCard  = () => {
                     </div>
 
                     <div className="latest-profile-icons-block">
-                        <a href="#" className=" mx-1">
+                        <a href="#" className="latest-icons mx-1">
                         <FontAwesomeIcon icon={faHeadphones}  /> <span className='mx-1'>120k</span>
                         </a>
-                        <a href="#" className="mx-1">
+                        <a href="#" className="latest-icons mx-1">
                             <FontAwesomeIcon icon={faHeart}  />
                             <span className='mx-1'>42.5k</span>
                         </a>
-                        <a href="#" className=" mx-1">
+                        <a href="#" className="latest-icons mx-1">
                             <FontAwesomeIcon icon={faComment}  />
                             <span className='mx-1'>11k</span>
                         </a>
-                        <a href="#" className=" mx-1">
+                        <a href="#" className="latest-icons mx-1">
                             <FontAwesomeIcon icon={faDownload}  />
                             <span className='mx-1'>50k</span>
                         </a>

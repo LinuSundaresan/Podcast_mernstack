@@ -1,0 +1,23 @@
+.data-container {
+    margin: 20px;
+    padding: 10px;
+}
+
+.table-image {
+    width: 30%;
+}
+
+.add-btn-container {
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.add-button {
+    background-color: #00668cf0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #FFF;
+}

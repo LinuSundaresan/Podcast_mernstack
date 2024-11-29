@@ -18,8 +18,16 @@ const  Navbar = ()=> {
                 </div>
 
                 <ul className='navbar-right'>
-                    <NavLink to='/user/home'><li>Home</li></NavLink>
-                    <NavLink to='/user/about'><li>About</li></NavLink>
+                    <NavLink to='/user/home' style={({ isActive }) => ({
+                        color: isActive ? 'blue' : 'white',
+                        fontWeight: isActive ? 'bold' : 'normal',
+                        textDecoration: 'none',
+                    })}><li>Home</li></NavLink>
+                    <NavLink to='/user/about' style={({ isActive }) => ({
+                    color: isActive ? 'blue' : 'white',
+                    fontWeight: isActive ? 'bold' : 'normal',
+                    textDecoration: 'none',
+                    })}><li>About</li></NavLink>
                     <li>Pages</li>
                     <li>Contact</li>
                     <li><button className='get_started'>Get Started </button></li>

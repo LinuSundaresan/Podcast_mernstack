@@ -1,0 +1,63 @@
+.admin-layout {
+    display: grid;
+    grid-template-areas: 
+        "sidebar navbar"
+        "sidebar container"; 
+    grid-template-columns: 1fr 4fr; 
+    grid-template-rows: 0.1fr 1fr; 
+    height: 100%;
+}
+
+.admin-navbar {
+    grid-area: navbar;
+    background-color: #004d66; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    height: 80px;
+}
+
+.sidebar {
+    background-color: rgb(1, 105, 139);
+    height: 100vh;
+    color: #FFF;
+    padding: 10px 20px;
+    position: fixed;
+    grid-area: sidebar;
+    z-index: 1;
+    width: 257px;
+}
+
+.sidebar .logo-div {
+    width: 100%;
+}
+
+.sidebar .logo-div img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.sidebar .menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sidebar .menu-container .menu-items {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.sidebar .settings {
+    position:absolute;
+    bottom: 20px;
+}
+
+.main-container {
+    grid-area: container;
+}
